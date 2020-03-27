@@ -1,0 +1,46 @@
+.new-incedent-container {
+  width: 100%;
+  max-width: 850px;
+  height: 100vh;
+  margin: 0 auto;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.new-incedent-container .contant {
+  width: 100%;
+  padding: 96px;
+  background: #F0F0F5;
+  box-shadow: 0 0 100px rgba(0, 0, 0, 0.10);
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.new-incedent-container .contant section {
+  width: 100%;
+  min-width: 385px;
+}
+
+.new-incedent-container .contant section h1 {
+  margin: 64px 0 32px;
+  font-size: 32px;
+}
+.new-incedent-container .contant section p {
+  font-size: 18px;
+  color: #737380;
+  line-height: 32px;
+}
+
+.new-incedent-container .contant form {
+  width: 100%;
+  max-width: 450px;
+}
+
+.new-incedent-container .contant form input,
+.new-incedent-container .contant form textarea {
+  margin-top: 8px;
+}
